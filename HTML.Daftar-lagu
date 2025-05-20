@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Lagu Danterajagula</title>
+    <link rel="stylesheet" href="loop.css">
+</head>
+<body>
+    <div class="container" id="music-list" >
+      <div id="kiri">
+      <br><H1>MY</H1></br>
+      <br><H1>FAVORITE</H1></br>
+      <br><H1>MUSIC</H1></br>
+      <br><H1>GUA</H1></br>
+      </div>
+    </div>
+  
+    <script src="loop.js"></script>
+</body>
+<onclick="putarAudio()"></onclick>
+</html>
