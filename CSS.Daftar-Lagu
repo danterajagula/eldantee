@@ -1,1 +1,64 @@
+body {
+ font-weight: bold;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.card svg {
+  width: 20px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card img {
+  width: 100%;
+}
+#kiri {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-style: initial;
+  font-weight: bold;
+  color: darkolivegreen;
+  
+}
+.play-button {
+  margin-top: 15px;
+  background-color: #0f7c44;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
 
