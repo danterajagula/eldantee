@@ -2,7 +2,7 @@ const musicArray = [
   ["Beautiful Things", "Benson Boone", "bt.png.jpg", "590K", "5M", "Benson Boone – Beautiful Things _ Lirik Terjemahan-yt.savetube.me.mp3"],
   ["Desember", "Neck Deep", "d.png.jpg", "3.2M", "726M", "Neck Deep - December-yt.savetube.me.mp3"],
   ["Sweet Scars", "Weird Genius", "SS.png.jpg", "2.1M", "4.2M", "Weird Genius - Sweet Scar (ft. Prince Husein) Official Music Video-yt.savetube.me.mp3"],
-  ["Mind Over Matter", "Young the Giant", "m.png.jpg", "6M", "8.3M", "Weird Genius - Sweet Scar (ft. Prince Husein) Official Music Video-yt.savetube.me.mp3"]
+  ["Mind Over Matter", "Young the Giant", "m.png.jpg", "6M", "8.3M", "Young The Giant - Mind Over Matter (Lyrics)-yt.savetube.me.mp3"]
 ];
 
 const musicList = document.getElementById("music-list");
