@@ -19,7 +19,7 @@ body {
   margin: 10px;
   width: 250px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(232, 231, 231, 0.634);
 }
 .card h3 {
   margin: 10px 0;
@@ -29,6 +29,7 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 15px;
+  font-style: oblique;
 }
 .card svg {
   width: 20px;
@@ -44,14 +45,15 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-style: initial;
+  font-style: italic;
   font-weight: bold;
-  color: darkolivegreen;
+  color: rgb(247, 251, 241);
+  text-shadow:  0 4px 10px rgb(136, 244, 109);;
   
 }
 .play-button {
   margin-top: 15px;
-  background-color: #0f7c44;
+  background-color: #0a8a48;
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -59,6 +61,14 @@ body {
   cursor: pointer;
   align-items: center;
   text-align: center;
+  transition: transform 0.2s ease
 }
 
+.play-button:hover {
+  transform: scale(1.1);
+  background-color: #18d667;
+}
+#like {
+  text-decoration: none;
+}
 
