@@ -8,7 +8,7 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: row;
   flex-wrap: wrap;
 }
 
